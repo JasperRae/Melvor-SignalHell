@@ -1,6 +1,6 @@
 # Melvor Mod: Signal Hell (Pre-Release)
 ### This Mod is very much in development. Use at your own risk. *I recommend you create a backup of your saves*
-### Most images, stats for the monsters, equipment, etc. are still being modified and/or created and are not final. 
+### Everything is still being modified and/or created and are not final in any way whatsoever. Drastic changes may come in the future.
 ___________________________________________________
 
 # Description
