@@ -6,6 +6,8 @@ ___________________________________________________
 # Description
 This is just a funny little mod that adds a few new Dungeons with some new Weapons, Pets, Enemies and other Items. It's all sort of cellphone/technology based funny things. The dungeons are all legendary difficulty, meant for the base game's endgame.
 
+![signalHellBanner](assets/icons/signalHellBanner.png)
+
 *I do not own the expansion DLCs, so I am currently only able to test and debug issues with the basegame. I'm new to all of this, so I'm in the process of learning. As such, expect to encounter issues and please be patient.*
 
 ### In Progress:
