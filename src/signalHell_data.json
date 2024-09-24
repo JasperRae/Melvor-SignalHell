@@ -1,0 +1,1740 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "items": [
+      {
+        "id": "Electrical_Rune",
+        "name": "Electrical Rune",
+        "type": "Rune",
+        "itemType": "Rune",
+        "media": "assets/items/misc/Electrical_Rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1
+      },
+      {
+        "id": "Eye_Of_Newton",
+        "name": "Eye of Newton",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/Eye_Of_Newton.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50
+      },
+	  {
+        "id": "Eye_OS_Update",
+        "name": "Eye OS Update",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/Placeholder.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "id": "OLED_Screen",
+        "name": "OLED Screen",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/OLED_Screen.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "id": "Refurbished_Battery",
+        "name": "Refurbished Battery",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/Refurbished_Battery.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "id": "LEDiodes",
+        "name": "LEDs",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/LEDiodes.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50
+      },
+      {
+        "id": "Gorba_Phone",
+        "name": "Gorba Phone",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/Gorba_Phone.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 50000
+      },
+      {
+        "id": "Mjollkia_Haft",
+        "name": "Mjollkia Haft",
+        "type": "Crafting Material",
+        "itemType": "Item",
+        "media": "assets/items/misc/Mjollkia_Haft.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000
+      },
+      {
+        "id": "Pixellated_Bolt",
+        "name": "Pixellated Bolt",
+        "category": "Combat",
+        "type": "Ammo",
+        "media": "assets/items/misc/Pixellated_Bolt.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "none",
+        "validSlots": [
+          "Quiver"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "rangedStrengthBonus",
+            "value": 175
+          }
+        ],
+        "itemType": "Equipment",
+        "ammoType": "Bolts"
+      },
+      {
+        "id": "Mjollkia",
+        "name": "Mjollkia",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/items/weapons/Mjollkia.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "Connecting people...with pain and destruction.",
+        "sellsFor": 6500000,
+        "tier": "none",
+        "validSlots": [
+          "Weapon",
+          "Shield"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Strength",
+            "level": 95
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "damageReduction",
+            "value": 6
+          },
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 185
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 185
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 400
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 38
+          },
+          {
+            "key": "damageReduction",
+            "value": 7
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": [
+          "signalHell:Can_You_Hear_Me_Now"
+        ]
+      },
+      {
+        "id": "Antenna",
+        "name": "Antenna",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/items/weapons/Antenna.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "Can you hear me now?",
+        "sellsFor": 500000,
+        "tier": "none",
+        "validSlots": [
+          "Weapon",
+          "Shield"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 145
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 145
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 265
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 32
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": [
+          "signalHell:Can_You_Hear_Me_Now"
+        ]
+      },
+      {
+        "id": "Galaxy_Staff",
+        "name": "Samsing Galaxy Staff",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "assets/items/weapons/Galaxy_Staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "+150 Maximum Spell Dmg for all Surges. Reduce the cost of Electrical Spells by 7 when equipped as a Weapon. (Cannot go below 1)",
+        "sellsFor": 3000000,
+        "tier": "staff",
+        "validSlots": [
+          "Weapon",
+          "Shield"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 95
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 47
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 60
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 39
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": 6
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "magic",
+        "specialAttacks": [
+		  "signalHell:Non_Obsolescence",
+		  "signalHell:ShootingStar"
+		],
+		"modifiers": {
+			"flatMagicMaxHit": [
+				{
+					"subCategoryID": "melvorD:Surge",
+					"value": 15
+				}
+			]
+		},
+		"providedRunes": [
+			{
+				"id": "signalHell:Electrical_Rune",
+				"quantity": 7
+			}
+		]
+      },
+      {
+		"itemType": "Equipment",
+        "id": "Eye_Phone",
+        "name": "Eye Phone",
+        "category": "Combat",
+        "type": "Magic Book",
+        "media": "assets/items/weapons/Eye_Phone.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "I think this is different. <br> Reduces the Electrical Rune and Light Rune cost of spells by 2",
+        "sellsFor": 150000,
+        "tier": "book",
+        "validSlots": [
+          "Shield"
+        ],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Magic",
+            "level": 85
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "magicAttackBonus",
+            "value": 22
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 15
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 24
+          }
+        ],
+		"providedRunes": [
+			{
+				"id": "signalHell:Electrical_Rune",
+				"quantity": 2
+			},
+			{
+				"id": "melvorD:Light_Rune",
+				"quantity": 2
+			}
+		]        
+      },
+      {
+        "id": "Pixel_Launcher",
+        "name": "Pixel Launcher",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/items/weapons/Pixel_Launcher.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "customDescription": "Be evil.",
+        "sellsFor": 5000000,
+        "tier": "none",
+        "validSlots": [
+          "Weapon",
+          "Shield"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 95
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 101
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 150
+          },
+          {
+            "key": "damageReduction",
+            "value": 7
+          }
+        ],
+		"specialAttacks": [
+			"signalHell:Digital_Barrage"
+		],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Dead_Zone_Chest",
+        "name": "Dead Zone Chest",
+        "category": "Chest",
+        "type": "Openable",
+        "media": "assets/items/chests/Dead_Zone_Chest.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5000,
+        "dropTable": [
+          {
+            "itemID": "signalHell:Eye_Of_Newton",
+            "minQuantity": 1,
+            "maxQuantity": 3,
+            "weight": 3
+          },
+          {
+            "itemID": "signalHell:Refurbished_Battery",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "melvorF:Eyeball",
+            "minQuantity": 10,
+            "maxQuantity": 100,
+            "weight": 300
+          }
+        ],
+        "itemType": "Openable"
+      },
+      {
+        "id": "Terminal_Chest",
+        "name": "Terminal Chest",
+        "category": "Chest",
+        "type": "Openable",
+        "media": "assets/items/chests/Terminal_Chest.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5000,
+        "dropTable": [
+          {
+            "itemID": "signalHell:Mjollkia_Haft",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 2
+          },
+          {
+            "itemID": "signalHell:Antenna",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "melvorD:Diamond",
+            "minQuantity": 1,
+            "maxQuantity": 100,
+            "weight": 80
+          }
+        ],
+        "itemType": "Openable"
+      },
+      {
+        "id": "Phone_Store_Chest",
+        "name": "Phone Store Chest",
+        "category": "Chest",
+        "type": "Openable",
+        "media": "assets/items/chests/Phone_Store_Chest.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5000,
+        "dropTable": [
+          {
+            "itemID": "signalHell:Pixel_Launcher",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          },
+          {
+            "itemID": "signalHell:Gorba_Phone",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 3
+          },
+          {
+            "itemID": "signalHell:Pixellated_Bolt",
+            "minQuantity": 1,
+            "maxQuantity": 10,
+            "weight": 25
+          },
+          {
+            "itemID": "signalHell:OLED_Screen",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 3
+          }
+        ],
+        "itemType": "Openable"
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "rootItemIDs": [
+          "signalHell:Eye_Of_Newton",
+          "signalHell:OLED_Screen",
+          "signalHell:Refurbished_Battery"
+        ],
+        "upgradedItemID": "signalHell:Eye_Phone",
+        "isDowngrade": false,
+        "itemCosts": [
+          {
+            "id": "signalHell:Eye_Of_Newton",
+            "quantity": 100
+          },
+          {
+            "id": "signalHell:OLED_Screen",
+            "quantity": 1
+          },
+          {
+            "id": "signalHell:Refurbished_Battery",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "rootItemIDs": [
+          "signalHell:Gorba_Phone",
+          "signalHell:Mjollkia_Haft"
+        ],
+        "upgradedItemID": "signalHell:Mjollkia",
+        "isDowngrade": false,
+        "itemCosts": [
+          {
+            "id": "signalHell:Gorba_Phone",
+            "quantity": 3
+          },
+          {
+            "id": "signalHell:Mjollkia_Haft",
+            "quantity": 1
+          }
+        ]
+      }
+    ],    
+
+    "attacks": [
+	  {
+		"id": "Digital_Barrage",
+		"name": "Digital Barrage",
+		"defaultChance": 75,
+		"damage": [
+			{
+				"damageType": "Normal",
+				"amplitude": 50
+			}			
+		],
+		"prehitEffects": [],
+		"onhitEffects": [
+			{
+				"effectID": "melvorD:Slow",
+				"initialParams": [
+				  {
+					"name": "magnitude",
+					"value": 25
+				  },
+				  {
+					"name": "turns",
+					"value": 2
+				  }
+				]
+			}
+		],
+		"cantMiss": false,
+		"attackCount": 12,
+		"attackInterval": 150,
+		"lifesteal": 0,
+		"description": "An avoidable attack that deals damage up to ${attackDamageMaxValue0}% of your normal damage ${hitCount} times over ${duration}s. On a hit, gives the enemy +${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of the enemy's turns.",
+        "descriptionGenerator": "An <avoidable> attack that deals damage up to <damage> <count> times over <duration>. On a hit, <hitEffect>.",
+		"usesRunesPerProc": false
+	  },
+      {
+        "id": "Can_You_Hear_Me_Now",
+        "name": "Can You Hear Me Now?",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 150,
+            "attackCount": 0
+          },
+          {
+            "damageType": "Normal",
+            "amplitude": 200,
+            "attackCount": 1
+          },
+          {
+            "damageType": "Normal",
+            "amplitude": 250,
+            "attackCount": 2
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:Burn",
+			"chance": 100
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 3,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "${attackDamageMaxValue0}% of your normal damage on the 1st attack, ${attackDamageMaxValue1}% of your normal damage on the 2nd attack, and ${attackDamageMaxValue2}% of your normal damage on the 3rd attack inflicts Burn that deals ${onHitEffect0DamageMaxValue0}% of the enemy's current hitpoints as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<damage> <hitEffect>"
+      },
+	  {
+        "id": "Non_Obsolescence",
+        "defaultChance": 25,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "roll": false,
+            "maxRoll": "MagicScaling",
+            "maxPercent": 45,
+            "character": "Attacker"
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 3,
+        "attackInterval": 80,
+        "lifesteal": 0,
+        "name": "Planned Non-Obsolescence",
+        "description": "Three attacks ${attackDamageMaxValue0}% of your Magic level + 1.",
+        "descriptionGenerator": "Perform an <avoidable> attack that does <damage>.",
+        "usesRunesPerProc": false
+      },	 
+
+	  {
+        "id": "ShootingStar",
+        "defaultChance": 100,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 75
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectID": "melvorD:Slow",
+            "initialParams": [
+              {
+                "name": "magnitude",
+                "value": 20
+              },
+              {
+                "name": "turns",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 4,
+        "attackInterval": 300,
+        "lifesteal": 0,
+        "name": "Shooting Star",
+        "description": "Converts your selected Standard Magic Spell into 4 shooting stars, dealing ${attackDamageMaxValue0}% of your normal damage ${hitCount} times over ${duration}s. On a hit, gives the enemy +${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of the enemy's turns. Consumes Runes per hit.",
+        "descriptionGenerator": "Converts your selected Standard Magic Spell into a Magic Ray, dealing <damage> <count> times over <duration>. On a hit, <hitEffect>. Consumes Runes per hit.",
+        "usesRunesPerProc": true
+      },
+	  
+	  {
+        "id": "Recover_Data",
+        "name": "Recover Data",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 100
+          }
+        ],
+        "prehitEffects": [
+		  {
+			"effectID": "melvorD:Heal0"
+		  }
+		],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Perform a regular attack (Avoidable). Gives Regen that heals ${preHitEffect0DamageMaxValue0}% of your max hitpoints over ${preHitEffect0duration}s."
+      }
+    ],	
+
+    "monsters": [
+	  {
+        "id": "Steven_Works",
+        "name": "Steven Works",
+		"media": "assets/Placeholder.png",
+        "levels": {
+          "Hitpoints": 999,
+          "Attack": 740,
+          "Strength": 740,
+          "Defence": 740,
+          "Ranged": 740,
+          "Magic": 765
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2250
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeDefenceBonus",
+            "value": -30
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -26
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 5
+          },
+          {
+            "key": "damageReduction",
+            "value": 30
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 25
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [
+			"signalHell:Can_You_Hear_Me_Now"
+        ],
+        "passives": [
+          "melvorF:Purity",
+          "melvorF:MagicProficiency"
+        ],
+        "lootChance": 100,
+        "lootTable": [
+          {
+            "itemID": "signalHell:Eye_OS_Update",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "weight": 1
+          }
+        ],
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "bones": {
+          "itemID": "melvorD:Magic_Bones",
+          "quantity": 206
+        },
+        "currencyDrops": [
+          {
+            "currencyID": "melvorD:GP",
+            "min": 999999,
+            "max": 999999
+          }
+        ]
+      },
+	  
+      {
+        "id": "Broken_Antenna",
+        "name": "Broken Antenna",
+        "media": "assets/monsters/Broken_Antenna.png",
+        "levels": {
+          "Attack": 130,
+          "Defence": 200,
+          "Hitpoints": 250,
+          "Magic": 230,
+          "Ranged": 130,
+          "Strength": 130
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2300
+          },
+		  {
+			"key": "damageReduction",
+			"value": 11
+		  },
+		  {
+			"key": "magicDamageBonus",
+			"value": 5
+		  },
+		  {
+			"key": "magicDefenceBonus",
+			"value": 25
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "currencyDrops": []
+      },
+      {
+        "id": "Cell_Tower",
+        "name": "Hacked Cell Tower",
+        "media": "assets/monsters/Cell_Tower.png",
+        "levels": {
+          "Attack": 300,
+          "Defence": 310,
+          "Hitpoints": 310,
+          "Magic": 195,
+          "Ranged": 550,
+          "Strength": 295
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2500
+          },
+		  {
+			"key": "damageReduction",
+			"value": 25
+		  },
+		  {
+			"key": "rangedDefenceBonus",
+			"value": 45
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "ranged",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      },
+      {
+        "id": "Razor_Bird",
+        "name": "Razor Bird",
+        "media": "assets/monsters/Razor_Bird.png",
+        "levels": {
+          "Attack": 365,
+          "Defence": 365,
+          "Hitpoints": 365,
+          "Magic": 300,
+          "Ranged": 260,
+          "Strength": 385
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+		  {
+            "key": "damageReduction",
+            "value": 21
+          },
+		  {
+            "key": "meleeStrengthBonus",
+            "value": 21
+          },
+		  {
+            "key": "rangedDefenceBonus",
+            "value": 38
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      },
+      {
+        "id": "Berry_Ghost",
+        "name": "Berry Scary Ghost",
+        "media": "assets/monsters/Berry_Ghost.png",
+        "levels": {
+          "Attack": 600,
+          "Defence": 400,
+          "Hitpoints": 505,
+          "Magic": 300,
+          "Ranged": 300,
+          "Strength": 600
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2500
+          },
+		  {
+			"key": "damageReduction",
+			"value": 30
+		  },
+		  {
+			"key": "meleeStrengthBonus",
+			"value": 5
+		  },
+		  {
+			"key": "meleeDefenceBonus",
+			"value": 50
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      },
+      {
+        "id": "Zombie_Newton",
+        "name": "Zombie Newton",
+        "media": "assets/monsters/Zombie_Newton.png",
+        "levels": {
+          "Attack": 700,
+          "Defence": 500,
+          "Hitpoints": 1050,
+          "Magic": 500,
+          "Ranged": 500,
+          "Strength": 700
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+		  {
+			"key": "damageReduction",
+			"value": 25
+		  },
+		  {
+			"key": "meleeStrengthBonus",
+			"value": 3
+		  },
+		  {
+			"key": "meleeDefenceBonus",
+			"value": 82
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": [
+			{
+				"currencyID": "melvorD:GP",
+				"min": 100000,
+				"max": 175000
+			}
+		]
+      },
+      {
+        "id": "Poo_Poo",
+        "name": "Poomoji",
+        "media": "assets/monsters/Poo_Poo.png",
+        "levels": {
+          "Attack": 130,
+          "Defence": 125,
+          "Hitpoints": 140,
+          "Magic": 200,
+          "Ranged": 100,
+          "Strength": 100
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2500
+          },
+		  {
+			"key": "damageReduction",
+			"value": 3
+		  },
+		  {
+			"key": "magicDamageBonus",
+			"value": 5
+		  },
+		  {
+			"key": "magicDefenceBonus",
+			"value": 20
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindSurge",
+        "currencyDrops": []
+      },
+      {
+        "id": "Undead_Battery",
+        "name": "Undead Battery",
+        "media": "assets/monsters/Undead_Battery.png",
+        "levels": {
+          "Attack": 300,
+          "Defence": 510,
+          "Hitpoints": 520,
+          "Magic": 320,
+          "Ranged": 300,
+          "Strength": 295
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+		  {
+			"key":"damageReduction",
+			"value": 20
+		  },
+		  {
+			"key": "magicDamageBonus",
+			"value": 5
+		  },
+		  {
+			"key": "magicDefenceBonus",
+			"value": 40
+		  },
+		  {
+			"key": "meleeDefenceBonus",
+			"value": -20
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "currencyDrops": []
+      },
+      {
+        "id": "Tech_Wizard",
+        "name": "Tech Wizard",
+        "media": "assets/monsters/Tech_Wizard.png",
+        "levels": {
+          "Attack": 550,
+          "Defence": 550,
+          "Hitpoints": 1100,
+          "Magic": 420,
+          "Ranged": 300,
+          "Strength": 550
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3200
+          },
+		  {
+            "key": "damageReduction",
+            "value": 25
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -20
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 50
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 5
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "currencyDrops": [
+			{
+				"currencyID": "melvorD:GP",
+				"min": 115000,
+				"max": 140000
+			}
+		]
+      },
+      {
+        "id": "Lightning_Serpent",
+        "name": "Lightning Serpent",
+        "media": "assets/monsters/Lightning_Serpent.png",
+        "levels": {
+          "Attack": 215,
+          "Defence": 195,
+          "Hitpoints": 250,
+          "Magic": 100,
+          "Ranged": 100,
+          "Strength": 285
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+		  {
+            "key": "damageReduction",
+            "value": 15
+          },
+		  {
+            "key": "meleeStrengthBonus",
+            "value": 29
+          },
+		  {
+            "key": "rangedDefenceBonus",
+            "value": 30
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      },
+      {
+        "id": "Spy_Wolf",
+        "name": "Spywerewolf",
+        "media": "assets/monsters/Spy_Wolf.png",
+        "levels": {
+          "Attack": 368,
+          "Defence": 368,
+          "Hitpoints": 375,
+          "Magic": 290,
+          "Ranged": 250,
+          "Strength": 385
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3000
+          },
+		  {
+			"key": "damageReduction",
+			"value": 22
+		  },
+		  {
+			"key": "meleeStrengthBonus",
+			"value": 22
+		  },
+		  {
+			"key": "rangedDefenceBonus",
+			"value": 25
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      },
+      {
+        "id": "Phone_Silencer",
+        "name": "The Phone Silencer",
+        "media": "assets/monsters/Phone_Silencer.png",
+        "levels": {
+          "Attack": 300,
+          "Defence": 565,
+          "Hitpoints": 1150,
+          "Magic": 300,
+          "Ranged": 570,
+          "Strength": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+		  {
+			"key": "damageReduction",
+			"value": 25
+		  },
+		  {
+			"key": "rangedDefenceBonus",
+			"value": 50
+		  },
+		  {
+			"key": "meleeDefenceBonus",
+			"value": -15
+		  }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "ranged",
+        "specialAttacks": [
+			"signalHell:Can_You_Hear_Me_Now",
+			"signalHell:Digital_Barrage"
+		],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": true,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": [
+			{
+				"currencyID": "melvorD:GP",
+				"min": 110000,
+				"max": 145000
+			}
+		]
+      },
+      {
+        "id": "LightningED",
+        "name": "Lightning Emitting Diode",
+        "media": "assets/monsters/LightningED.png",
+        "levels": {
+          "Attack": 130,
+          "Defence": 125,
+          "Hitpoints": 201,
+          "Magic": 95,
+          "Ranged": 190,
+          "Strength": 125
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+		  {
+            "key": "damageReduction",
+            "value": 7
+          },
+		  {
+            "key": "rangedStrengthBonus",
+            "value": 25
+          },
+		  {
+            "key": "rangedDefenceBonus",
+            "value": 25
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "ranged",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 5,
+        "lootTable": [
+			{
+				"itemID": "signalHell:LEDiodes",
+				"minQuantity": 2,
+				"maxQuantity": 5,
+				"weight": 1
+			}
+		],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "currencyDrops": []
+      },
+      {
+        "id": "Phone_Genius",
+        "name": "Phone Genius",
+        "media": "assets/monsters/Phone_Genius.png",
+        "levels": {
+          "Attack": 300,
+          "Defence": 470,
+          "Hitpoints": 560,
+          "Magic": 360,
+          "Ranged": 300,
+          "Strength": 300
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3300
+          },
+          {
+            "key": "damageReduction",
+            "value": 25
+          },
+          {
+            "key": "magicAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": -15
+          },
+          {
+            "key": "magicDefenceBonus",
+            "value": 40
+          },
+          {
+            "key": "magicDamageBonus",
+            "value": 3
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "magic",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "signalHell:Electrical_Surge",
+        "currencyDrops": [],
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 3
+        }
+      },
+      {
+        "id": "Call_Center_Agent",
+        "name": "Call Center Agent",
+        "media": "assets/monsters/Call_Center_Agent.png",
+        "levels": {
+          "Hitpoints": 155,
+          "Attack": 130,
+          "Strength": 150,
+          "Defence": 130,
+          "Ranged": 100,
+          "Magic": 100
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2600
+          },
+          {
+            "key": "damageReduction",
+            "value": 5
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 65
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 15
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 100,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "bones": {
+          "itemID": "melvorD:Bones",
+          "quantity": 3
+        }
+      },
+      {
+        "id": "Customer",
+        "name": "Annoying Customer",
+        "media": "assets/monsters/Customer.png",
+        "levels": {
+          "Hitpoints": 225,
+          "Attack": 195,
+          "Strength": 270,
+          "Defence": 210,
+          "Ranged": 100,
+          "Magic": 100
+        },
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "damageReduction",
+            "value": 9
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 45
+          },
+          {
+            "key": "rangedDefenceBonus",
+            "value": 35
+          }
+        ],
+        "ignoreCompletion": false,
+        "attackType": "melee",
+        "specialAttacks": [],
+        "passives": [],
+        "lootChance": 50,
+        "lootTable": [],
+        "canSlayer": false,
+        "isBoss": false,
+        "selectedSpell": "melvorD:WindStrike",
+        "currencyDrops": []
+      }
+    ],
+	
+    "attackSpells": [
+      {
+        "id": "Electrical_Surge",
+        "level": 70,
+        "media": "assets/icons/misc/Electrical_Surge.png",
+        "name": "Electrical_Surge",
+        "maxHit": 27,
+        "categories": [
+          "melvorD:Surge"
+        ],
+        "runesRequired": [
+          {
+            "id": "signalHell:Electrical_Rune",
+            "quantity": 10
+          },
+		  {
+			"id": "melvorD:Ancient_Rune",
+			"quantity": 1
+		  },
+		  {
+			"id": "melvorD:Air_Rune",
+			"quantity": 7
+		  }
+        ],
+        "spellbook": "melvorD:Standard"
+      }
+    ],
+	
+    "dungeons": [
+      {
+        "id": "Terminal",
+        "name": "Terminal",
+        "media": "assets/icons/locations/Terminal.png",
+        "difficulty": [
+          5
+        ],
+        "monsterIDs": [          
+          "signalHell:LightningED",
+		  "signalHell:LightningED",
+		  "signalHell:LightningED",
+          "signalHell:Lightning_Serpent",
+		  "signalHell:Lightning_Serpent",
+		  "signalHell:Spy_Wolf",
+		  "signalHell:Phone_Silencer"
+        ],
+        "entryRequirements": [],
+        "rewardItemIDs": [
+          "signalHell:Terminal_Chest"
+        ],
+        "dropBones": true,
+        "pet": {
+          "petID": "signalHell:Andy_Bot",
+          "weight": 1750
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false,
+        "floors": [
+          1
+        ]
+      },
+      {
+        "id": "Dead_Zone",
+        "name": "Dead Zone",
+        "media": "assets/icons/locations/Dead_Zone.png",
+        "difficulty": [
+          5
+        ],
+        "monsterIDs": [
+		  "signalHell:Poo_Poo",
+		  "signalHell:Poo_Poo",
+		  "signalHell:Poo_Poo",
+		  "signalHell:Poo_Poo",
+		  "signalHell:Broken_Antenna",
+          "signalHell:Cell_Tower",
+          "signalHell:Undead_Battery",
+          "signalHell:Berry_Ghost",
+          "signalHell:Zombie_Newton"
+        ],
+        "entryRequirements": [],
+        "rewardItemIDs": [
+          "signalHell:Dead_Zone_Chest"
+        ],
+        "dropBones": true,
+        "pet": {
+          "petID": "signalHell:Risnir",
+          "weight": 850
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false,
+        "floors": [
+          1
+        ]
+      },
+      {
+        "id": "Phone_Store",
+        "name": "Phone Store",
+        "media": "assets/icons/locations/Phone_Store.png",
+        "difficulty": [
+          5
+        ],
+        "monsterIDs": [
+		  "signalHell:Call_Center_Agent",
+		  "signalHell:Call_Center_Agent",
+		  "signalHell:Call_Center_Agent",
+		  "signalHell:Customer",
+		  "signalHell:Customer",
+		  "signalHell:Customer",
+		  "signalHell:Razor_Bird",
+          "signalHell:Phone_Genius",          
+          "signalHell:Tech_Wizard"          
+        ],
+        "entryRequirements": [],
+        "rewardItemIDs": [
+          "signalHell:Phone_Store_Chest"
+        ],
+        "dropBones": true,
+        "pet": {
+          "petID": "signalHell:Cable_Snake",
+          "weight": 1500
+        },
+        "fixedPetClears": false,
+        "pauseOnBosses": false,
+        "floors": [
+          1
+        ]
+      }
+    ],
+    "pets": [
+      {
+        "id": "Risnir",
+        "name": "Risnir",
+        "media": "assets/pets/Risnir.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "damageDealtToMonstersInArea": [
+			{
+				"categoryID": "melvorD:CombatAreas",
+				"value": 3
+			}			
+		  ]
+        },
+        "activeInRaid": false,
+        "customDescription": "He's Alive!"
+      },
+	  {
+		"id": "Njostr",
+        "name": "Njostr",
+        "media": "assets/pets/Njostr.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "flatAttackInterval": -150
+        },
+        "activeInRaid": false,
+        "customDescription": "Oh no! What happened to his leg?",
+		"skillID": "melvorD:Attack"
+	  },
+      {
+        "id": "Cable_Snake",
+        "name": "USSSSSSSSSSSB",
+        "media": "assets/pets/Cable_Snake.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "flatMaxHitpoints": 1
+        },
+        "activeInRaid": false,
+        "customDescription": "ssssssay, you wouldn't happen to have a charger on you, would ya'?"
+      },
+      {
+        "id": "Andy_Bot",
+        "name": "Andy",
+        "media": "assets/pets/Andy_Bot.png",
+        "scaleChanceWithMasteryPool": false,
+        "ignoreCompletion": false,
+        "modifiers": {
+          "flatResistance": [
+            {
+              "damageTypeID": "melvorD:Normal",
+              "value": 3
+            }
+          ]
+        },
+        "activeInRaid": false,
+        "customDescription": "ABCDEFG, say 'Hello' to your new robot, Andy!"
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Fletching",
+        "data": {
+          "recipes": [
+            {
+              "id": "Pixellated_Bolt_Recipe",
+              "level": 95,
+              "productID": "signalHell:Pixellated_Bolt",
+              "baseQuantity": 10,
+              "baseExperience": 25,
+              "categoryID": "melvorF:Bolts",
+              "itemCosts": [
+                {
+                  "id": "signalHell:LEDiodes",
+                  "quantity": 10
+				},
+                {
+                  "id": "melvorD:Headless_Bolts",
+                  "quantity": 10
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Runecrafting",
+        "data": {
+          "recipes": [
+            {
+              "id": "Electrical_Rune_Recipe",
+              "level": 75,
+              "productID": "signalHell:Electrical_Rune",
+              "baseQuantity": 1,
+              "baseExperience": 20,
+              "categoryID": "melvorF:StandardRunes",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Rune_Essence",
+                  "quantity": 1
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "modifications": {
+    "combatAreaCategories": [
+      {
+        "id": "melvorD:Dungeons",
+        "areas": {
+          "add": [
+            {
+              "insertAt": "After",
+              "afterID": "melvorF:Air_God_Dungeon",
+              "ids": [
+                "signalHell:Phone_Store"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorD:Volcanic_Cave",
+              "ids": [
+                "signalHell:Terminal"
+              ]
+            },
+            {
+              "insertAt": "After",
+              "afterID": "melvorF:Fire_God_Dungeon",
+              "ids": [
+                "signalHell:Dead_Zone"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "namespace": "signalHell"
+}
