@@ -2,5 +2,5 @@
 	"namespace": "signalHell",
 	"setup": "src/setup.mjs",
 	"icon": "assets/icons/signalHellIcon.png",
-	"load": [ "src/signalHell_data.json" ]
+	"load": [ "src/data.json" ]
 }
