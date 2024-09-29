@@ -1,5 +1,6 @@
-export function setup(ctx) {
-	
-	console.warn('Signal Hell Loaded');
-	
+export async function setup(ctx) {
+	await ctx.gameData.addPackage('src/data.json');
+	ctx.onModsLoaded(ctx => {
+		mod.api.mythCombatSimulator?.registerNamespace('signalHell');
+	});
 }
