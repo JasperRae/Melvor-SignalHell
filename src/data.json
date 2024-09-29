@@ -1,691 +1,729 @@
 {
     "$schema": "https://melvoridle.com/assets/schema/gameData.json",
     "data": {
-        "items": [
+      "items": [
+        {
+          "id": "Electrical_Rune",
+          "name": "Electrical Rune",
+          "type": "Rune",
+          "itemType": "Rune",
+          "media": "assets/items/misc/Electrical_Rune.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 1
+        },
+        {
+          "id": "Eye_Of_Newton",
+          "name": "Eye of Newton",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/Eye_Of_Newton.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50
+        },
+        {
+          "id": "Eye_OS_Update",
+          "name": "Eye OS Update",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/Placeholder.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50000
+        },
+        {
+          "id": "OLED_Screen",
+          "name": "OLED Screen",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/OLED_Screen.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50000
+        },
+        {
+          "id": "Refurbished_Battery",
+          "name": "Refurbished Battery",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/Refurbished_Battery.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50000
+        },
+        {
+          "id": "LEDiodes",
+          "name": "LEDs",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/LEDiodes.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50
+        },
+        {
+          "id": "Gorba_Phone",
+          "name": "Gorba Phone",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/Gorba_Phone.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 50000
+        },
+        {
+          "id": "Mjollkia_Haft",
+          "name": "Mjollkia Haft",
+          "type": "Crafting Material",
+          "itemType": "Item",
+          "media": "assets/items/misc/Mjollkia_Haft.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 150000
+        },
+        {
+          "id": "Pixellated_Bolt",
+          "name": "Pixellated Bolt",
+          "category": "Combat",
+          "type": "Ammo",
+          "media": "assets/items/misc/Pixellated_Bolt.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 1500,
+          "tier": "none",
+          "validSlots": [
+            "Quiver"
+          ],
+          "occupiesSlots": [
+          ],
+          "equipRequirements": [
             {
-                "id": "Electrical_Rune",
-                "name": "Electrical Rune",
-                "type": "Rune",
-                "itemType": "Rune",
-                "media": "assets/items/misc/Electrical_Rune.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 1
-            },
-            {
-                "id": "Eye_Of_Newton",
-                "name": "Eye of Newton",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/Eye_Of_Newton.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50
-            },
-            {
-                "id": "Eye_OS_Update",
-                "name": "Eye OS Update",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/Placeholder.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50000
-            },
-            {
-                "id": "OLED_Screen",
-                "name": "OLED Screen",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/OLED_Screen.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50000
-            },
-            {
-                "id": "Refurbished_Battery",
-                "name": "Refurbished Battery",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/Refurbished_Battery.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50000
-            },
-            {
-                "id": "LEDiodes",
-                "name": "LEDs",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/LEDiodes.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50
-            },
-            {
-                "id": "Gorba_Phone",
-                "name": "Gorba Phone",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/Gorba_Phone.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 50000
-            },
-            {
-                "id": "Mjollkia_Haft",
-                "name": "Mjollkia Haft",
-                "type": "Crafting Material",
-                "itemType": "Item",
-                "media": "assets/items/misc/Mjollkia_Haft.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 150000
-            },
-            {
-                "id": "Pixellated_Bolt",
-                "name": "Pixellated Bolt",
-                "category": "Combat",
-                "type": "Ammo",
-                "media": "assets/items/misc/Pixellated_Bolt.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 25,
-                "tier": "none",
-                "validSlots": [
-                    "Quiver"
-                ],
-                "occupiesSlots": [
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Ranged",
-                        "level": 85
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "rangedStrengthBonus",
-                        "value": 175
-                    }
-                ],
-                "itemType": "Equipment",
-                "ammoType": "Bolts"
-            },
-            {
-                "id": "Mjollkia",
-                "name": "Mjollkia",
-                "category": "Combat",
-                "type": "Weapon",
-                "media": "assets/items/weapons/Mjollkia.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "Connecting people...with pain and destruction.",
-                "sellsFor": 6500000,
-                "tier": "none",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                    "Shield"
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Strength",
-                        "level": 95
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "damageReduction",
-                        "value": 6
-                    },
-                    {
-                        "key": "attackSpeed",
-                        "value": 3600
-                    },
-                    {
-                        "key": "stabAttackBonus",
-                        "value": -4
-                    },
-                    {
-                        "key": "slashAttackBonus",
-                        "value": 185
-                    },
-                    {
-                        "key": "blockAttackBonus",
-                        "value": 185
-                    },
-                    {
-                        "key": "meleeStrengthBonus",
-                        "value": 400
-                    },
-                    {
-                        "key": "meleeDefenceBonus",
-                        "value": 38
-                    },
-                    {
-                        "key": "damageReduction",
-                        "value": 7
-                    }
-                ],
-                "itemType": "Weapon",
-                "attackType": "melee",
-                "specialAttacks": [
-                    "signalHell:Can_You_Hear_Me_Now"
-                ]
-            },
-            {
-                "id": "SIMitar",
-                "name": "SIMitar",
-                "category": "Combat",
-                "type": "Weapon",
-                "media": "assets/Placeholder.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "",
-                "sellsFor": 3500000,
-                "tier": "none",
-                "validSlots": [
-                    "Weapon"
-                ],
-                "occupiesSlots": [
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Attack",
-                        "level": 95
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 2400
-                    },
-                    {
-                        "key": "stabAttackBonus",
-                        "value": 95
-                    },
-                    {
-                        "key": "slashAttackBonus",
-                        "value": 130
-                    },
-                    {
-                        "key": "blockAttackBonus",
-                        "value": 95
-                    },
-                    {
-                        "key": "meleeStrengthBonus",
-                        "value": 105
-                    }
-                ],
-                "itemType": "Weapon",
-                "attackType": "melee",
-                "specialAttacks": [
-                    "signalHell:Can_You_Hear_Me_Now"
-                ]
-            },
-            {
-                "id": "Antenna",
-                "name": "Antenna",
-                "category": "Combat",
-                "type": "Weapon",
-                "media": "assets/items/weapons/Antenna.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "Can you hear me now?",
-                "sellsFor": 500000,
-                "tier": "none",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                    "Shield"
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Attack",
-                        "level": 85
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 3200
-                    },
-                    {
-                        "key": "stabAttackBonus",
-                        "value": -2
-                    },
-                    {
-                        "key": "slashAttackBonus",
-                        "value": 145
-                    },
-                    {
-                        "key": "blockAttackBonus",
-                        "value": 145
-                    },
-                    {
-                        "key": "meleeStrengthBonus",
-                        "value": 265
-                    },
-                    {
-                        "key": "meleeDefenceBonus",
-                        "value": 32
-                    }
-                ],
-                "itemType": "Weapon",
-                "attackType": "melee",
-                "specialAttacks": [
-                    "signalHell:Can_You_Hear_Me_Now"
-                ]
-            },
-            {
-                "id": "Galaxy_Staff",
-                "name": "Samsing Galaxy Staff",
-                "category": "Combat",
-                "type": "Magic Staff",
-                "media": "assets/items/weapons/Galaxy_Staff.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "+115 Maximum Spell Dmg for all Surges. Reduce the cost of Electrical Spells by 7 when equipped as a Weapon. (Cannot go below 1)",
-                "sellsFor": 600000,
-                "tier": "staff",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                    "Shield"
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Magic",
-                        "level": 85
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 3000
-                    },
-                    {
-                        "key": "magicAttackBonus",
-                        "value": 50
-                    },
-                    {
-                        "key": "magicDamageBonus",
-                        "value": 25
-                    },
-                    {
-                        "key": "magicDefenceBonus",
-                        "value": 29
-                    },
-                    {
-                        "key": "meleeDefenceBonus",
-                        "value": 5
-                    }
-                ],
-                "itemType": "Weapon",
-                "attackType": "magic",
-                "specialAttacks": [
-                    "signalHell:Non_Obsolescence",
-                    "signalHell:ShootingStar"
-                ],
-                "modifiers": {
-                    "flatMagicMaxHit": [
-                        {
-                            "subCategoryID": "melvorD:Surge",
-                            "value": 15
-                        }
-                    ]
-                },
-                "providedRunes": [
-                    {
-                        "id": "signalHell:Electrical_Rune",
-                        "quantity": 7
-                    }
-                ]
-            },
-            {
-                "id": "Touch_Stylus",
-                "name": "Touch Stylus",
-                "category": "Combat",
-                "type": "Magic Wand",
-                "media": "assets/Placeholder.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "",
-                "sellsFor": 1500000,
-                "tier": "wand",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Magic",
-                        "level": 95
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 2600
-                    },
-                    {
-                        "key": "magicAttackBonus",
-                        "value": 45
-                    },
-                    {
-                        "key": "magicDamageBonus",
-                        "value": 30
-                    },
-                    {
-                        "key": "magicDefenceBonus",
-                        "value": 45
-                    }
-                ],
-                "itemType": "Weapon",
-                "attackType": "magic",
-                "specialAttacks": [
-                    "signalHell:Non_Obsolescence",
-                    "signalHell:ShootingStar"
-                ],
-                "modifiers": {
-                    "flatMagicMaxHit": [
-                        {
-                            "subCategoryID": "melvorD:Surge",
-                            "value": 15
-                        }
-                    ]
-                },
-                "providedRunes": [
-                    {
-                        "id": "signalHell:Electrical_Rune",
-                        "quantity": 3
-                    }
-                ]
-            },
-            {
-                "itemType": "Equipment",
-                "id": "Eye_Phone",
-                "name": "Eye Phone",
-                "category": "Combat",
-                "type": "Magic Book",
-                "media": "assets/items/weapons/Eye_Phone.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "I think this is different. <br> Reduces the Electrical Rune and Light Rune cost of spells by 2",
-                "sellsFor": 150000,
-                "tier": "book",
-                "validSlots": [
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Magic",
-                        "level": 85
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "magicAttackBonus",
-                        "value": 22
-                    },
-                    {
-                        "key": "magicDamageBonus",
-                        "value": 15
-                    },
-                    {
-                        "key": "magicDefenceBonus",
-                        "value": 24
-                    }
-                ],
-                "providedRunes": [
-                    {
-                        "id": "signalHell:Electrical_Rune",
-                        "quantity": 2
-                    },
-                    {
-                        "id": "melvorD:Light_Rune",
-                        "quantity": 2
-                    }
-                ]
-            },
-            {
-                "id": "Arrow_Installer",
-                "name": "Arrow Installer",
-                "category": "Combat",
-                "type": "Ranged Weapon",
-                "media": "assets/Placeholder.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "Arrow Installed.",
-                "sellsFor": 3000000,
-                "tier": "none",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                    "Shield"
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Ranged",
-                        "level": 95
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 2600
-                    },
-                    {
-                        "key": "rangedAttackBonus",
-                        "value": 110
-                    },
-                    {
-                        "key": "rangedStrengthBonus",
-                        "value": 90
-                    },
-                    {
-                        "key": "damageReduction",
-                        "value": 2
-                    }
-                ],
-                "specialAttacks": [
-                    "signalHell:Digital_Barrage"
-                ],
-                "itemType": "Weapon",
-                "attackType": "ranged",
-                "ammoTypeRequired": "Arrows"
-            },
-            {
-                "id": "Pixel_Launcher",
-                "name": "Pixel Launcher",
-                "category": "Combat",
-                "type": "Weapon",
-                "media": "assets/items/weapons/Pixel_Launcher.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "customDescription": "Be evil.",
-                "sellsFor": 5000000,
-                "tier": "none",
-                "validSlots": [
-                    "Weapon",
-                    "Shield"
-                ],
-                "occupiesSlots": [
-                    "Shield"
-                ],
-                "equipRequirements": [
-                    {
-                        "type": "SkillLevel",
-                        "skillID": "melvorD:Ranged",
-                        "level": 95
-                    }
-                ],
-                "equipmentStats": [
-                    {
-                        "key": "attackSpeed",
-                        "value": 3000
-                    },
-                    {
-                        "key": "rangedAttackBonus",
-                        "value": 101
-                    },
-                    {
-                        "key": "rangedStrengthBonus",
-                        "value": 150
-                    },
-                    {
-                        "key": "damageReduction",
-                        "value": 7
-                    }
-                ],
-                "specialAttacks": [
-                    "signalHell:Digital_Barrage"
-                ],
-                "itemType": "Weapon",
-                "attackType": "ranged",
-                "ammoTypeRequired": "Bolts"
-            },
-            {
-                "id": "Dead_Zone_Chest",
-                "name": "Dead Zone Chest",
-                "category": "Chest",
-                "type": "Openable",
-                "media": "assets/items/chests/Dead_Zone_Chest.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 5000,
-                "dropTable": [
-                    {
-                        "itemID": "signalHell:Eye_Of_Newton",
-                        "minQuantity": 1,
-                        "maxQuantity": 3,
-                        "weight": 2
-                    },
-                    {
-                        "itemID": "signalHell:Refurbished_Battery",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 1
-                    },
-                    {
-                        "itemID": "melvorF:Eyeball",
-                        "minQuantity": 100,
-                        "maxQuantity": 1000,
-                        "weight": 120
-                    }
-                ],
-                "itemType": "Openable"
-            },
-            {
-                "id": "Terminal_Chest",
-                "name": "Terminal Chest",
-                "category": "Chest",
-                "type": "Openable",
-                "media": "assets/items/chests/Terminal_Chest.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 5000,
-                "dropTable": [
-                    {
-                        "itemID": "signalHell:Mjollkia_Haft",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 2
-                    },
-                    {
-                        "itemID": "signalHell:Antenna",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 1
-                    },
-                    {
-                        "itemID": "melvorD:Diamond",
-                        "minQuantity": 100,
-                        "maxQuantity": 750,
-                        "weight": 80
-                    }
-                ],
-                "itemType": "Openable"
-            },
-            {
-                "id": "Phone_Store_Chest",
-                "name": "Phone Store Chest",
-                "category": "Chest",
-                "type": "Openable",
-                "media": "assets/items/chests/Phone_Store_Chest.png",
-                "ignoreCompletion": false,
-                "obtainFromItemLog": false,
-                "golbinRaidExclusive": false,
-                "sellsFor": 5000,
-                "dropTable": [
-                    {
-                        "itemID": "signalHell:Pixel_Launcher",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 1
-                    },
-                    {
-                        "itemID": "signalHell:Gorba_Phone",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 3
-                    },
-                    {
-                        "itemID": "signalHell:Pixellated_Bolt",
-                        "minQuantity": 1,
-                        "maxQuantity": 10,
-                        "weight": 25
-                    },
-                    {
-                        "itemID": "signalHell:OLED_Screen",
-                        "minQuantity": 1,
-                        "maxQuantity": 1,
-                        "weight": 3
-                    }
-                ],
-                "itemType": "Openable"
+              "type": "SkillLevel",
+              "skillID": "melvorD:Ranged",
+              "level": 85
             }
-        ],
+          ],
+          "equipmentStats": [
+            {
+              "key": "rangedStrengthBonus",
+              "value": 175
+            }
+          ],
+          "itemType": "Equipment",
+          "ammoType": "Bolts"
+        },
+        {
+          "id": "Mjollkia",
+          "name": "Mjollkia",
+          "category": "Combat",
+          "type": "Weapon",
+          "media": "assets/items/weapons/Mjollkia.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "Connecting people...with pain and destruction.",
+          "sellsFor": 3500000,
+          "tier": "none",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+            "Shield"
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Strength",
+              "level": 95
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 3600
+            },
+            {
+              "key": "stabAttackBonus",
+              "value": -4
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 175
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 175
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 390
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 35
+            },
+            {
+              "key": "damageReduction",
+              "value": 5
+            }
+          ],
+          "itemType": "Weapon",
+          "attackType": "melee",
+          "specialAttacks": [
+            "signalHell:Can_You_Hear_Me_Now"
+          ]
+        },
+        {
+          "id": "SIMitar",
+          "name": "SIMitar",
+          "category": "Combat",
+          "type": "Weapon",
+          "media": "assets/Placeholder.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "",
+          "sellsFor": 3500000,
+          "tier": "none",
+          "validSlots": [
+            "Weapon"
+          ],
+          "occupiesSlots": [
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Attack",
+              "level": 95
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 2400
+            },
+            {
+              "key": "stabAttackBonus",
+              "value": 95
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 130
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 95
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 105
+            }
+          ],
+          "itemType": "Weapon",
+          "attackType": "melee",
+          "specialAttacks": [
+            "signalHell:Can_You_Hear_Me_Now"
+          ]
+        },
+        {
+          "id": "Antenna",
+          "name": "Antenna",
+          "category": "Combat",
+          "type": "Weapon",
+          "media": "assets/items/weapons/Antenna.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "Can you hear me now?",
+          "sellsFor": 750000,
+          "tier": "none",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+            "Shield"
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Attack",
+              "level": 85
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 3200
+            },
+            {
+              "key": "stabAttackBonus",
+              "value": -4
+            },
+            {
+              "key": "slashAttackBonus",
+              "value": 145
+            },
+            {
+              "key": "blockAttackBonus",
+              "value": 145
+            },
+            {
+              "key": "meleeStrengthBonus",
+              "value": 250
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 25
+            }
+          ],
+          "itemType": "Weapon",
+          "attackType": "melee",
+          "specialAttacks": [
+            "signalHell:Can_You_Hear_Me_Now"
+          ]
+        },
+        {
+          "id": "Galaxy_Staff",
+          "name": "Samsing Galaxy Staff",
+          "category": "Combat",
+          "type": "Magic Staff",
+          "media": "assets/items/weapons/Galaxy_Staff.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "+115 Maximum Spell Dmg for all Surges. Reduce the cost of Electrical Spells by 7 when equipped as a Weapon. (Cannot go below 1)",
+          "sellsFor": 600000,
+          "tier": "staff",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+            "Shield"
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Magic",
+              "level": 85
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 3000
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 50
+            },
+            {
+              "key": "magicDamageBonus",
+              "value": 25
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 29
+            },
+            {
+              "key": "meleeDefenceBonus",
+              "value": 5
+            }
+          ],
+          "itemType": "Weapon",
+          "attackType": "magic",
+          "specialAttacks": [
+            "signalHell:Non_Obsolescence",
+            "signalHell:ShootingStar"
+          ],
+          "modifiers": {
+            "flatMagicMaxHit": [
+              {
+                "subCategoryID": "melvorD:Surge",
+                "value": 15
+              }
+            ]
+          },
+          "providedRunes": [
+            {
+              "id": "signalHell:Electrical_Rune",
+              "quantity": 7
+            }
+          ]
+        },
+        {
+          "id": "Touch_Stylus",
+          "name": "Touch Stylus",
+          "category": "Combat",
+          "type": "Magic Wand",
+          "media": "assets/Placeholder.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "",
+          "sellsFor": 1500000,
+          "tier": "wand",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Magic",
+              "level": 95
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 2600
+            },
+            {
+              "key": "magicAttackBonus",
+              "value": 45
+            },
+            {
+              "key": "magicDamageBonus",
+              "value": 30
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 45
+            }
+          ],
+          "itemType": "Weapon",
+          "attackType": "magic",
+          "specialAttacks": [
+            "signalHell:Non_Obsolescence",
+            "signalHell:ShootingStar"
+          ],
+          "modifiers": {
+            "flatMagicMaxHit": [
+              {
+                "subCategoryID": "melvorD:Surge",
+                "value": 15
+              }
+            ]
+          },
+          "providedRunes": [
+            {
+              "id": "signalHell:Electrical_Rune",
+              "quantity": 3
+            }
+          ]
+        },
+        {
+          "itemType": "Equipment",
+          "id": "Eye_Phone",
+          "name": "Eye Phone",
+          "category": "Combat",
+          "type": "Magic Book",
+          "media": "assets/items/weapons/Eye_Phone.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "I think this is different. <br> Reduces the Electrical Rune and Light Rune cost of spells by 2",
+          "sellsFor": 150000,
+          "tier": "book",
+          "validSlots": [
+            "Shield"
+          ],
+          "occupiesSlots": [
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Magic",
+              "level": 85
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "magicAttackBonus",
+              "value": 22
+            },
+            {
+              "key": "magicDamageBonus",
+              "value": 15
+            },
+            {
+              "key": "magicDefenceBonus",
+              "value": 24
+            }
+          ],
+          "providedRunes": [
+            {
+              "id": "signalHell:Electrical_Rune",
+              "quantity": 2
+            },
+            {
+              "id": "melvorD:Light_Rune",
+              "quantity": 2
+            }
+          ]
+        },
+        {
+          "id": "Arrow_Installer",
+          "name": "Arrow Installer",
+          "category": "Combat",
+          "type": "Ranged Weapon",
+          "media": "assets/Placeholder.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "Arrow Installed.",
+          "sellsFor": 3000000,
+          "tier": "none",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+            "Shield"
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Ranged",
+              "level": 95
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 2600
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 110
+            },
+            {
+              "key": "rangedStrengthBonus",
+              "value": 90
+            },
+            {
+              "key": "damageReduction",
+              "value": 2
+            }
+          ],
+          "specialAttacks": [
+            "signalHell:Digital_Barrage"
+          ],
+          "itemType": "Weapon",
+          "attackType": "ranged",
+          "ammoTypeRequired": "Arrows"
+        },
+        {
+          "id": "Pixel_Launcher",
+          "name": "Pixel Launcher",
+          "category": "Combat",
+          "type": "Weapon",
+          "media": "assets/items/weapons/Pixel_Launcher.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "customDescription": "Be evil.",
+          "sellsFor": 5000000,
+          "tier": "none",
+          "validSlots": [
+            "Weapon",
+            "Shield"
+          ],
+          "occupiesSlots": [
+            "Shield"
+          ],
+          "equipRequirements": [
+            {
+              "type": "SkillLevel",
+              "skillID": "melvorD:Ranged",
+              "level": 95
+            }
+          ],
+          "equipmentStats": [
+            {
+              "key": "attackSpeed",
+              "value": 3000
+            },
+            {
+              "key": "rangedAttackBonus",
+              "value": 101
+            },
+            {
+              "key": "rangedStrengthBonus",
+              "value": 150
+            },
+            {
+              "key": "damageReduction",
+              "value": 7
+            }
+          ],
+          "specialAttacks": [
+            "signalHell:Digital_Barrage"
+          ],
+          "itemType": "Weapon",
+          "attackType": "ranged",
+          "ammoTypeRequired": "Bolts"
+        },
+        {
+          "id": "Dead_Zone_Chest",
+          "name": "Dead Zone Chest",
+          "category": "Chest",
+          "type": "Openable",
+          "media": "assets/items/chests/Dead_Zone_Chest.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 1000,
+          "dropTable": [
+            {
+              "itemID": "signalHell:Mjollkia_Haft",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            },
+            {
+              "itemID": "signalHell:Antenna",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            },
+            {
+              "itemID": "signalHell:Eye_Of_Newton",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 5
+            },
+            {
+              "itemID": "signalHell:Refurbished_Battery",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            },
+            {
+              "itemID": "melvorF:Eyeball",
+              "minQuantity": 12,
+              "maxQuantity": 128,
+              "weight": 350
+            }
+          ],
+          "itemType": "Openable"
+        },
+        {
+          "id": "Terminal_Chest",
+          "name": "Terminal Chest",
+          "category": "Chest",
+          "type": "Openable",
+          "media": "assets/items/chests/Terminal_Chest.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 1000,
+          "dropTable": [
+            {
+              "itemID": "signalHell:Pixel_Launcher",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 10
+            },            
+            {
+              "itemID": "melvorF:Jadestone_Bolts",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 120
+            },
+            {
+              "itemID": "signalHell:Pixellated_Bolt",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 200
+            },
+            {
+              "itemID": "melvorF:Diamond_Bolts",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 350
+            },
+            {
+              "itemID": "melvorF:Emerald_Bolts",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 500
+            }
+          ],
+          "itemType": "Openable"
+        },
+        {
+          "id": "Phone_Store_Chest",
+          "name": "Phone Store Chest",
+          "category": "Chest",
+          "type": "Openable",
+          "media": "assets/items/chests/Phone_Store_Chest.png",
+          "ignoreCompletion": false,
+          "obtainFromItemLog": false,
+          "golbinRaidExclusive": false,
+          "sellsFor": 1000,
+          "dropTable": [            
+            {
+              "itemID": "signalHell:Gorba_Phone",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 6
+            },
+            {
+              "itemID": "signalHell:OLED_Screen",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            },
+            {
+              "itemID": "signalHell:Galaxy_Staff",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            },
+            {
+              "itemID": "signalHell:Electrical_Rune",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 25
+            },
+            {
+              "itemID": "melvorD:Ancient_Rune",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 40
+            },
+            {
+              "itemID": "melvorD:Light_Rune",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 60
+            },
+            {
+              "itemID": "melvorD:Air_Rune",
+              "minQuantity": 1,
+              "maxQuantity": 100,
+              "weight": 120
+            }
+          ],
+          "itemType": "Openable"
+        }
+      ],
         "itemUpgrades": [
             {
                 "rootItemIDs": [

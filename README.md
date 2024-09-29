@@ -1,29 +1,14 @@
 # Melvor Mod: Signal Hell (Alpha)
-### This Mod is very much in development. Use at your own risk. As with all mods, *I recommend you create a backup of your saves.*
-### Everything is still being modified and/or created and are not final in any way whatsoever. Expect changes.
-Let me know if you have any questions, concerns, or suggestions. I hope you enjoy my mod :)
+### This Mod is very much in development. Use at your own risk. *I recommend you create a backup of your saves*
+### Everything is still being modified and/or created and are not final in any way whatsoever. Drastic changes may come in the future.
 ___________________________________________________
 
 # Description
-Welcome to Signal Hell! This mod evolved a bit from what I planned to be a mod that just added a few funny weapons. 
-As of right now, there are:
-
-<ul>
-	<li>4 new weapons - 2 melee and 1 of magic and ranged each.</li>
-	<li>3 new dungeons of Legendary difficulty, meant to fill the gap between the Dragons Den and Volcanic Cave</li>
-	<li>1 new rune, as well as 1 new attack spell</li>
-	<li>4 new pets (though 1 is not yet implemented)</li>
-	<li>1 new type of crossbow bolt</li>
-</ul>
-
-I plan on adding a few more weapons and spells in the future, and hopefully some armour sets.
-
-I'm still working on balancing, and I'm wanting to add quite a bit more content as my time and energy allow. My priority right now is figuring out combat balance, as weapons and dungeons are both not where I want them to be. I also plan on editing the loot tables for the dungeon chests, as right now I'm still experimenting with drop rates.
-
-All of the assets are drawn by me.
-___________________________________________________
+This is just a funny little mod that adds a few new Dungeons with some new Weapons, Pets, Enemies and other Items. It's all sort of cellphone/technology based funny things. The dungeons are all legendary difficulty, meant for the base game's endgame.
 
 ![signalHellBanner](assets/icons/signalHellBanner.png)
+
+*I do not own the expansion DLCs, so I am currently only able to test and debug issues with the basegame. I'm new to all of this, so I'm in the process of learning. As such, expect to encounter issues and please be patient.*
 
 ### In Progress:
 <ul>
@@ -35,6 +20,6 @@ ___________________________________________________
 </ul>
 
 ### Goals:
-✓ [MYTH] Combat Simulator Compatibility
-
-*This is my first mod and it's been a learning experience for me. I've spent a lot of time and energy making it. It's meant to be funny and light-hearted. Please be kind.*
+<ul>
+  <li>Integration with [MYTH] Combat Simulator</li>
+</ul>
