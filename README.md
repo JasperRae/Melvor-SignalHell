@@ -7,7 +7,7 @@ As of right now, there are:
 
 <ul>
 	<li>4 new weapons - 2 melee and 1 of magic and ranged each.</li>
-	<li>3 new dungeons of Legendary difficulty, meant to fill the gap between the Dragons Den and Volcanic Cave</li>
+	<li>3 new dungeons of Master difficulty, meant to fill the gap between the Dragons Den and Volcanic Cave</li>
 	<li>1 new rune, as well as 1 new attack spell</li>
 	<li>4 new pets (though 1 is not yet implemented)</li>
 	<li>1 new type of crossbow bolt</li>
